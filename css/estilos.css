@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;700&display=swap');
+
+body{
+    font-family: 'Rubik', sans-serif;   
+    
+}
+.carro
+{
+    color: rgb(4, 75, 156); 
+    margin-left:  15%;
+    margin-top: 3%;
+}
+.tituloCarro{
+    font-size:25px;
+    float:left;
+    margin-bottom: 20px;
+}
+.numProd{
+    float:left;
+    color: rgb(197, 197, 197);
+    font-size: 10px;
+    margin-left: 4px;
+    margin-top: 13px;
+    
+}
+.numProdMini{
+    float:left;
+    color: rgb(197, 197, 197);
+    font-size: 10px;
+    margin-left: 4px;
+    margin-top: 30px;
+    
+}
+.titTabla{
+    background-color: rgba(186, 213, 238, 0.158);
+    text-align: left;
+    padding: 18px 18px;
+    
+}
+.titTablaSum{
+    background-color: white;
+    text-align: left;
+    border:none;
+    padding: 18px 18px;
+    font-size: 18px;
+    border-collapse: collapse;
+}
+.fs{
+    float: right;
+    margin-right: 20px;
+}
+.products{
+    padding-left: 0px;
+    clear:both;
+    width: 80%;
+    height: 50%;
+    border: 2px  rgba(241, 244, 245, 0.829);
+    font-size: 12px;
+    border-collapse: collapse;
+}
+.productsMini{
+    padding-left: 0px;
+    clear:both;
+    width: 400px;
+    height: 100px;
+    border: 2px  rgba(241, 244, 245, 0.829);
+    font-size: 10px;
+    border-collapse: collapse;
+}
+td{
+    border: 2px solid rgba(241, 244, 245, 0.829);
+
+}
+.que{
+    float:left;
+    left: 60px;
+}
+.cuentas{
+    width: 300px;
+    text-align: right;
+    float:right;
+    line-height: 175%;
+}
+.cuentasMini{
+    width:86%;
+    font-size: 10px;
+    text-align: right;
+    margin-top: 15px;
+    margin-right:15px;
+    float:left;
+    line-height: 240%;;
+    background-color: rgba(186, 213, 238, 0.158);
+    padding:17px 20px 17px 20px;
+    
+
+    clear:both;
+}
+.balance{
+    padding: 10px 40px 10px 0px;
+    text-align: right;
+}
+.removeButton{
+    border:none;
+    background-color: white;
+    color: rgb(184, 96, 69);
+    border-radius: 5px;
+}
+.removeButton:hover{
+    background-color: rgb(247, 222, 222);
+}
+.imgProd{
+    clear:both;
+    float:left;
+}
+.prod1{
+    margin-left:10px;
+}
+.prod2{
+    margin-left:10px;
+}
+.descripcionProd{
+    float:left;
+    margin-left:40px;
+    width:40%;
+}
+.descripcionProdMini{
+    float:left;
+    margin-left:5px;
+    width:70%;
+}
+.precioProd{
+    float:left;
+    text-align: right;
+    margin-top: 6px;
+    margin-left: 22px;
+    font-size: 12px;  
+}
+
+.vinc{
+    font-size: 7px;
+}
+
+.cantProd{
+    float:left;
+    margin-top:15px;
+    margin-left:20px;
+}
+.contadorFormato{
+    border: 2px solid rgba(144, 198, 216, 0.829);
+    border-collapse: collapse;
+    width:100%;
+}
+.btn{
+    border:none;
+    background-color: white;
+    width: 40px;
+    height: 21px;
+}
+#cantidad1,#cantidad2{
+    border:none;
+    width: 100%;
+
+}
+.tableSum{
+    float:left;
+    width: 25%;
+    color: rgb(4, 75, 156);
+    border:none;
+    border-collapse: collapse;
+    margin-left: 15%;
+    font-size: 11px;
+    
+}
+.tableSum tr, .tableSum td{
+    border:none;
+
+}
+.sinBorde{
+    border:none;
+}
+.enlaces{
+    float:right;
+    margin-block-start: 13px;
+    color: rgb(35, 184, 221);
+    font-size: 11px;
+    font-weight: 800;
+
+}
+.enlacesEdit{
+    float:right;
+    margin-block-start: 30px;
+    font-size: 11px;
+    font-weight: 800;
+    color: rgb(35, 184, 221);
+    
+}
+a:hover{
+    color: rgb(27, 80, 105);
+    font-weight:bold;
+    cursor:pointer;
+
+}
+.address{
+    float:left;
+}
+.linea{
+    height:2px;
+    background-color:rgba(241, 244, 245, 0.829);
+    border:none;
+}
+.yourCart{
+    float:left;
+    font-size:20px;
+
+}
+.total{
+    
+    float:right;
+    font-size: 17px;
+    padding: 0;
+    margin-right: 10%;
+    color:rgb(4, 75, 156);
+    width: 30%;
+
+
+}
+.order{
+    float:left;
+    margin-top:10px;
+    background-color:rgb(18, 109, 228);
+    color:whitesmoke;
+    border:none;
+    border-radius:3px;
+    width: 100%;
+    height: 23px;
+}
+.order:hover{
+    cursor: pointer;
+    background-color: rgb(27, 80, 105);
+}
+.acuerdo{
+    margin-top:10px;
+    color:rgba(145, 148, 150, 0.829);
+    float:left;
+    font-size: 10px;
+    text-align: justify;
+    width:100%;
+}
+
+.gtc{
+    color: rgb(35, 184, 221);
+    text-decoration: underline;
+    
+}
+.gtc:hover{
+    cursor: pointer;
+    background-color: rgb(27, 80, 105);
+}
+@media screen and (max-width:980px){
+    .products{
+        width:60%;
+    }  
+    
+} 
+@media screen and (max-width:1080px){
+    .contadorFormato{
+        
+        width:70%;
+    } 
+    .productsMini{
+        width:70%;
+    }
+    .tableSum{
+        
+        width: 30%;
+        
+        margin-left: 10%;
+        
+    }
+} 
+    
+
